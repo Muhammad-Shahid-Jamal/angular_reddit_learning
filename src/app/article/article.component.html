@@ -1,10 +1,10 @@
 <div class="col card_box">
   <div class="card" style="width: 18rem;">
     <div class="card-body">
-      <h5 class="card-title">{{title}}</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Points {{votes}}</h6>
+      <h5 class="card-title">{{article.title}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Points {{article.votes}}</h6>
       <p class="card-text">
-        <a href="{{link}}">{{title}} <i class="fa fa-bolt"></i></a>
+        <a href="{{article.link}}">{{article.title}} <i class="fa fa-bolt"></i></a>
       </p>
       <a href (click)='upVote()' class="card-link"><i class="fa fa-angle-up"></i> up vote</a>
       <a href (click)='downVote()' class="card-link"><i class="fa fa-angle-down"></i> down vote</a>
