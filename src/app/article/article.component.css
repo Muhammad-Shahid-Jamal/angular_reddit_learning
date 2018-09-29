@@ -1,0 +1,7 @@
+.card_box{
+    margin:10px;
+}
+.card{
+    box-shadow: 1px 0px 10px 0px #81D4FA;
+    border: none;
+}
