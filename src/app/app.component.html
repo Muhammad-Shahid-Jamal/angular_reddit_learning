@@ -18,9 +18,6 @@
 </div>
 <div class="container article_list">
   <div class="row justify-content-md-center">
-      <app-article></app-article>
-      <app-article></app-article>
-      <app-article></app-article>
-      <app-article></app-article>
+      <app-article *ngFor="let article of articles" [article]="article"></app-article>
   </div>
 </div>
